@@ -28,6 +28,13 @@ const generatearray = (count, max) => {
 
 generatearray(100, 100); 
 
+const arrofnumberi = [];
+for (let i = 0; i < 100; i++) {
+    const randomizenumber = Math.floor(Math.random() * 100);
+    arrofnumberi.push(randomizenumber)
+}
+console.log(arrofnumberi);
+
 let arrofnumber = [2, 4, 45, 8, 78]
 
 let minimum = Math.min(...arrofnumber);
@@ -39,6 +46,17 @@ let arrayof = ["apple", "banana", "mango", "peach", "apricot", "pear", "pineappl
 
 let returnlongestarray = arrayof.length > arrayofstrings.length ? "arrayof" : "arrayofstrings";
 console.log(returnlongestarray);
+
+let thisarr = [];
+for (let i = 0; i < 4; i++) {
+    let current = []
+    for (let k = 0; k < 10; k++) {
+        current.push(Math.floor(Math.random() * 10))
+    }
+    thisarr.push(current)
+}
+
+console.log(thisarr);
 
 const array = [1, 2, 3, 4]; 
 let sum = 0; 
